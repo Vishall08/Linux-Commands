@@ -1,55 +1,72 @@
+# Linux Commands Cheat Sheet
 
-#Linux Commands Cheat Sheet
+---
 
-1) User and Group Management
-   a) useradd  -  Add a new user
-   b) usermod  -  Modify user account
-   c) userdel  -  Delete a user
-   d) groupadd -  Add a new group
-   e) groupdel -  Delete a group
-   f) chgrp    -  Change group ownership of a file
-   g) passwd   -  Change user password
-   h) who      -  Who is logged in
+## 1. User and Group Management
 
+| Command     | Description                                      |
+|-------------|--------------------------------------------------|
+| `useradd`   | Add a new user                                   |
+| `usermod`   | Modify user account                              |
+| `userdel`   | Delete a user                                     |
+| `groupadd`  | Add a new group                                  |
+| `groupdel`  | Delete a group                                   |
+| `chgrp`     | Change group ownership of a file                 |
+| `passwd`    | Change user password                             |
+| `who`       | Show who is logged in                            |
 
-2) File and Directory Management
-   a) ls   -  List directory contents
-   b) cd   -  Change Directory
-   c) pwd  -  Print working directory
-   d) mkdir - Make a new Directory
-   e) rmdir - Remove a directory
-   f) rm    - Remove files or directories
-   g) cp    - Copy files or directories
-   h) mv    - Move or rename files or directories
-   i) touch - Create empty files
-   j) find  - Search for file in directory hierarchy
-   k) locate - Find files by name
+---
 
+## 2. File and Directory Management
 
-3) File Management
-   1) cat    - Concatenate and display files contents
-   2) more   - View file content page by page
-   3) less   - View file content with navigation
-   4) head   - View the first part of a file
-   5) tail   - View the last part of a file
-   6) nano   - Text editor to edit files
-   7) vi     - Text editor to edit files
-   8) touch  - Create an empty file or update file timestamp
-   9) ln     - Create hard or sysmbolic links
-   10) file  - Determine file type
-   11) stat  - Display file or file system status
-   12) find  - Search for files in a directory hierarchy
-   13) locate - Find files by name (Using a database)
-   14) updatedb - Update the database used by locate
-   15) xargs   - Build and execute command lines from standart input
+| Command     | Description                                      |
+|-------------|--------------------------------------------------|
+| `ls`        | List directory contents                          |
+| `cd`        | Change directory                                 |
+| `pwd`       | Print working directory                          |
+| `mkdir`     | Make a new directory                             |
+| `rmdir`     | Remove a directory                               |
+| `rm`        | Remove files or directories                      |
+| `cp`        | Copy files or directories                        |
+| `mv`        | Move or rename files or directories              |
+| `touch`     | Create empty files                               |
+| `find`      | Search for file in directory hierarchy           |
+| `locate`    | Find files by name                               |
 
-4) File Permissions and Ownership
-   1) chmod    -  Change file permissions
-   2) chown    -  Change file owner and group
-   3) chgrp    -  Change group ownership
-   4) umask    -  Set file creation mask
-   5) getfacl  -  Get file access control lists(ACL)
-   6) setfacl  -  Set file access control lists(ACL)
-   7) ls -l    -  List files with detailed permissions, owner, and group
-   8) stat     -  Display files or file system status
-   9) acl      -  View or Modify Access Control Lists(ACL) on files
+---
+
+## 3. File Management
+
+| Command     | Description                                      |
+|-------------|--------------------------------------------------|
+| `cat`       | Concatenate and display file contents            |
+| `more`      | View file content page by page                   |
+| `less`      | View file content with navigation                |
+| `head`      | View the first part of a file                    |
+| `tail`      | View the last part of a file                     |
+| `nano`      | Text editor to edit files                        |
+| `vi`        | Text editor to edit files                        |
+| `touch`     | Create an empty file or update timestamp         |
+| `ln`        | Create hard or symbolic links                    |
+| `file`      | Determine file type                              |
+| `stat`      | Display file or filesystem status                |
+| `find`      | Search for files in a directory hierarchy        |
+| `locate`    | Find files by name (uses a database)             |
+| `updatedb`  | Update the database used by `locate`             |
+| `xargs`     | Build and execute command lines from input       |
+
+---
+
+## 4. File Permissions and Ownership
+
+| Command     | Description                                      |
+|-------------|--------------------------------------------------|
+| `chmod`     | Change file permissions                          |
+| `chown`     | Change file owner and group                      |
+| `chgrp`     | Change group ownership                           |
+| `umask`     | Set default file permissions mask                |
+| `getfacl`   | Get file access control lists (ACL)              |
+| `setfacl`   | Set file access control lists (ACL)              |
+| `ls -l`     | List files with detailed permissions             |
+| `stat`      | Display file or file system status               |
+| `acl`       | View or modify ACLs on files                     |
