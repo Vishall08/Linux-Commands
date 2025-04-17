@@ -27,8 +27,5 @@ All command details are available in the `Linux_Commands.md` file.
 Found something missing or want to add more categories?  
 Feel free to fork the repo and open a pull request with your suggestions!
 
-## 📝 License
-
-This repository is open-source and available under the [MIT License](LICENSE).
 
 ---
