@@ -25,6 +25,7 @@
 | `cd`        | Change directory                                 |
 | `pwd`       | Print working directory                          |
 | `mkdir`     | Make a new directory                             |
+| 'mkdir aa bb cc' | for multiple folders                        |
 | `rmdir`     | Remove a directory                               |
 | `rm`        | Remove files or directories                      |
 | `cp`        | Copy files or directories                        |
