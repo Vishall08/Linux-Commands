@@ -2,10 +2,13 @@
 
 This repository contains a well-organized cheat sheet of essential Linux commands. It is designed to help beginners, students, and professionals quickly recall common operations related to:
 
-- User and Group Management  
-- File and Directory Management  
-- File Management  
-- File Permissions and Ownership  
+- Basic Navigation and Directory Commands
+- File Operations
+- System Information and Networking
+- Permissions and Ownership
+- Service Management
+- File Viewing and Editing
+- Software and Package Management
 
 All command details are available in the `Linux_Commands.md` file.
 
@@ -24,3 +27,8 @@ All command details are available in the `Linux_Commands.md` file.
 Found something missing or want to add more categories?  
 Feel free to fork the repo and open a pull request with your suggestions!
 
+## 📝 License
+
+This repository is open-source and available under the [MIT License](LICENSE).
+
+---
